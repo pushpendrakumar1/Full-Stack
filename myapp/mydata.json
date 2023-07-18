@@ -1,0 +1,78 @@
+from myapp.models import activitylists
+from myapp.models import clientname, operator
+
+[
+    {
+        "model": "databletable.myapp",
+        "pk": 1,
+        "fields": {
+            "first_name": "John",
+            "last_name": "Doe",
+            "company": "Acme Inc.",
+            "email": "johndoe@example.com",
+            "phone_number": "555-1234"
+        }
+    },
+    {
+        "model": "databletable.myapp",
+        "pk": 2,
+        "fields":{
+            "client": "Client 1",
+            "operator": "Operator 1",
+            "oem": "Nokia",
+            "Ticket_Number": 12345,
+            "fa_location": "Location 1",
+            "site_ids": "Site 1",
+            "Added_Date": "2023-06-30",
+            "County": "County 1",
+            "Activity": "Activity 1",
+            "Ix_Date": "2023-07-01",
+            "G_IX_date": "2023-07-02",
+            "Ticket_Status": "Status 1",
+            "lite_site_id": "Lite Site 1",
+            "three_g_site_id": "3G Site 1",
+            "Field_Installation": "Field Installation 1",
+            "Alarm": "Alarm 1",
+            "Field_Integration": "Field Integration 1",
+            "remote_Integration": "Remote Integration 1",
+            "five_g_site_id": "5G Site 1",
+            "site_name": "Site Name 1",
+            "market": "Market 1",
+            "address": "Address 1",
+            "zip_code": "Zip Code 1",
+            "Added_By": "Added By 1",
+            "IX_Status": "IX Status 1",
+            "CX_Status": "CX Status 1",
+            "latitude": "Latitude 1",
+            "longitude": "Longitude 1",
+            "mon_hours": "Mon Hours 1",
+            "tue_hours": "Tue Hours 1",
+            "wed_hours": "Wed Hours 1",
+            "thu_hours": "Thu Hours 1",
+            "fri_hours": "Fri Hours 1",
+            "sat_hours": "Sat Hours 1",
+            "sun_hours": "Sun Hours 1",
+            "key_comments": "Key Comments 1",
+            "notice_needed": "Notice Needed 1",
+            "notice_comments": "Notice Comments 1",
+            "num_of_carrier": 2,
+            "pace": "Pace 1",
+            "ptn": "PTN 1",
+            "sow_type": "Option 1",
+            "wo_cr_id": "WO CR ID 1",
+            "sow": "SOW 1",
+            "ix_schedule_date": "2023-07-03",
+            "nest": "Yes",
+            "mop_start_time": "08:00:00",
+            "mop_end_time": "17:00:00",
+            "ix_date_comment": "IX Date Comment 1",
+            "equipment_pickup": "Option 1",
+            "five_g_ix_standalone": "Option 1",
+            "five_g_ix_schedule_date": "2023-07-04",
+            "call_test_date": "2023-07-05",
+            "market_state": "State 1",
+            "crew_dispatch_date": "2023-07-06"
+            }
+    }
+]
+
